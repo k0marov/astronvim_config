@@ -20,6 +20,20 @@ return {
       return opts
     end,
   },
+  {
+    "vim-test/vim-test",
+    cmd = { "TestFile", "TestNearest", "TestSuite", "TestVisit"},
+    config = function() end,
+  },
+  {
+    "dart-lang/dart-vim-plugin",
+    cmd = {},
+    config = function() end,
+  },
+  {
+    "thosakwe/vim-flutter",
+  },
+
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --
